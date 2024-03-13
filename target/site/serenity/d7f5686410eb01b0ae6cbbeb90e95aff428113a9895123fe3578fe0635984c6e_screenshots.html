@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.13.1/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.13.1/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.13.1/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/>
+<!--CHART.JS-->
+<script src="chartjs/chart.js"></script>
+<script src="chartjs/chartjs-plugin-datalabels@2.0.0"></script>
+<script src="chartjs/patternomaly.min.js"></script>
+<script>
+    // Register the plugin to all charts:
+    Chart.register(ChartDataLabels);
+</script>
+<!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Serenity BDD Report</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="041c080b05bcc61bbd9a0165aaa4264c3fb16c370d2daf539e78b54e3c699197.html">Registro En La Pagina De CODEBUSTER</a></span>
+                > <span class="truncate-60"><a
+                    href="d7f5686410eb01b0ae6cbbeb90e95aff428113a9895123fe3578fe0635984c6e.html">El usuario se registra exitosamente en la Pagina de CODEBUSTER </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="bi bi-journal-check"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 13-03-2024 17:25</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fs-2 bi bi-chat-left-quote large-icon"></i>
+                                    <span class="story-header-title">Registro En La Pagina De CODEBUSTER </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="6589fe880d23ee64f90858039e4e02f59be5f652ba99f3e7e8ce9cbc3e44e927.html">CASO0002
+                                </a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="6fe0671aeea9e76b6998ee682216d11c7748a4152740df0586f3c256ecb3f5da.html">Chrome
+                                </a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="f55cf301e8f51d63aebeb8bc8dbe880df940586e2a502c7a3e24c2b639523f8f.html">Windows
+                                </a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="59736924e81ea98f655ac8eba7cd96079d8d80131e0c4360daf32a724d0b38a0.html">Chrome, Windows
+                                </a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="3c1be6471a639b94e314f5280fd0130582575e488cfdd310c503025f4fed8944.html">CODEBUSTER
+                                </a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="error-color">El usuario se registra exitosamente en la Pagina de CODEBUSTER
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que el usuario ingresa a la pagina de CodeBuster &lt;url&gt;<br>Y el usuario verifica que la página carga correctamente<br>Y el usuario se registra de manera exitosa<br>Y el usuario inicia sesion<br>Y el usuario valida el inicio de sesion exitoso<br>Entonces el usuario cierra sesion</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'//input[@name='login']'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.codebuster.www.task.InicioSesionTask.performAs(InicioSesionTask.java:39)<br />com.codebuster.www.stepDefinitions.InicioYCierreDeSesionStepDefinitions.elUsuarioIniciaSesion(InicioYCierreDeSesionStepDefinitions.java:14)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:56)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:84)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)<br />io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                    <div class="panel-body">
+                        <a href="pagesource17544582379242986996.html" target="_blank" class="btn btn-info">HTML Source</a>
+                    </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="576d38f2b4156088f8b34abb90474274eb1aa9e0955f1bf5c3a4db170bf2e020.png" title=" 1: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="576d38f2b4156088f8b34abb90474274eb1aa9e0955f1bf5c3a4db170bf2e020.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="576d38f2b4156088f8b34abb90474274eb1aa9e0955f1bf5c3a4db170bf2e020.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="576d38f2b4156088f8b34abb90474274eb1aa9e0955f1bf5c3a4db170bf2e020.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="2bc4b9967309e1359f867a9c47e74e71889900643c9e98e6b4b3e1000b8ac105.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="e5cd122cb93c1659d5f5241daa64b0f2837fbc3cc0f3fbb85c0b6789d632a020.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="d748fba967a9e3142c7a752648a854bb7a050ec32809f7e06fd8f441be229714.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="d748fba967a9e3142c7a752648a854bb7a050ec32809f7e06fd8f441be229714.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="d748fba967a9e3142c7a752648a854bb7a050ec32809f7e06fd8f441be229714.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="3ab13906b945e471ac619195e4e475271d5fd235e2c84a696d180172102022dc.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="e102f8677c3af06332dffdbffd5f937e83de7969d83e5799be0ba2cdb62fcc31.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="3a773a3de1975ee3369ee590d6c53f164ee78a533542cb28b34a6f9bae99043e.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="456f9fa3868f9d28950a57415bc7d715123539abf58c5612125c44a0261594a1.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="219dc2eaec1ca91b628abe1c4df1c0850442a61165e5f55a9d910240937f0962.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="b2a6628e36c0fae9f0f44a31349c0c457274008276c692ae98a426264cb0ddff.png" title=" Tester enters 'Maricela Vidal' into Input Nombre" width="1920"/>
+                <img src="68133ce6cf47204f94ff94dbfd19665de23cc585be1638a6d728a2ea36987038.png" title=" Tester enters 'Maricela Vidal' into Input Nombre (completed)" width="1920"/>
+                <img src="68133ce6cf47204f94ff94dbfd19665de23cc585be1638a6d728a2ea36987038.png" title=" Tester enters 'norma.silva@prodigy.net.mx' into Input Correo Electronico" width="1920"/>
+                <img src="da4324ac0e1cb9885976c8cb2e908c8000932a564be348e220102c0f5db0d4e2.png" title=" Tester enters 'norma.silva@prodigy.net.mx' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="da4324ac0e1cb9885976c8cb2e908c8000932a564be348e220102c0f5db0d4e2.png" title=" Tester enters 'Maricela##Ir' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="84e619715f47ce575f18dd039fce461d641a058480cbcc8435fc9e22a2440877.png" title=" Tester enters 'Maricela##Ir' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="84e619715f47ce575f18dd039fce461d641a058480cbcc8435fc9e22a2440877.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="5533f3fc1c90965b6dd5fbafa70952216c259b3d596c3e6315ea226ace53a01e.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="ad20faa8f298da90741212b6b7c7e786ae7409420670fc070136a8a97ea91e84.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="ad20faa8f298da90741212b6b7c7e786ae7409420670fc070136a8a97ea91e84.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="ad20faa8f298da90741212b6b7c7e786ae7409420670fc070136a8a97ea91e84.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="32fd2cffa7264c94e3ccc8f1058ff0f23a280713f60b4a58c5cf4f9cc3b00507.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="32fd2cffa7264c94e3ccc8f1058ff0f23a280713f60b4a58c5cf4f9cc3b00507.png" title=" Tester enters 'norma.silva@prodigy.net.mx' into Input Correo Electronico: <span class='error-color'>ERROR</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 3.7.1</span>
+</div>
+</body>
+</html>
