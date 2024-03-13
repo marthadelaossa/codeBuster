@@ -1,7 +1,7 @@
 package com.codebuster.www.stepDefinitions;
 
 import com.codebuster.www.interactions.AbrirNavegador;
-import com.codebuster.www.task.CargaPaginaInicial;
+import com.codebuster.www.task.CargaPaginaInicialTask;
 import io.cucumber.java.Before;
 import io.cucumber.java.es.Dado;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
@@ -28,6 +28,6 @@ public class AbrirNavegadorStepDefinitions {
 
     @Dado("el usuario verifica que la página carga correctamente")
     public void elUsuarioVerificaQueLaPáginaCargaCorrectamente() {
-        theActorInTheSpotlight().attemptsTo(CargaPaginaInicial.verificar());
+        theActorInTheSpotlight().attemptsTo(CargaPaginaInicialTask.verificar());
     }
 }

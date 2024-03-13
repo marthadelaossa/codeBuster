@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
          features = "src/test/resources/features/",
         glue = "com.codebuster.www.stepDefinitions",
-        tags="@CASO0001",
+        tags="@CASO0004",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class CodeBusterRunner {
