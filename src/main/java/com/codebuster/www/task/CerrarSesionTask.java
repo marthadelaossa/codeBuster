@@ -25,9 +25,7 @@ public class CerrarSesionTask implements Task {
                 WaitUntil.the( BUTTON_CERRAR_SESION,isClickable()).forNoMoreThan(30).seconds(),
                 Click.on(BUTTON_CERRAR_SESION)
         );
-        actor.attemptsTo(
-                WaitUntil.the(BUTTON_INGRESAR, isClickable()).forNoMoreThan(40).seconds()
-                );
+
     }
 
     public static CerrarSesionTask ir (){

@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 13-03-2024 17:25</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 25-03-2024 17:28</span>
     <br style="clear:left"/>
 </div>
 
@@ -217,9 +217,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="error-color">El usuario se registra exitosamente en la Pagina de CODEBUSTER
+                                <span class="failing-color">El usuario se registra exitosamente en la Pagina de CODEBUSTER
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -245,7 +245,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'//input[@name='login']'}</span>
+                    <span class="error-message error-message-title">Assertion error: Expecting Button Usuario that is displayedBut got: web element is not displayed</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
@@ -261,11 +261,11 @@
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                    <h4>java.lang.AssertionError </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>com.codebuster.www.task.InicioSesionTask.performAs(InicioSesionTask.java:39)<br />com.codebuster.www.stepDefinitions.InicioYCierreDeSesionStepDefinitions.elUsuarioIniciaSesion(InicioYCierreDeSesionStepDefinitions.java:14)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:56)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:84)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)<br />io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                        <pre>com.codebuster.www.stepDefinitions.InicioYCierreDeSesionStepDefinitions.elUsuarioValidaElInicioDeSesionExitoso(InicioYCierreDeSesionStepDefinitions.java:29)<br />✽.el usuario valida el inicio de sesion exitoso(file:///E:/Cursos/DigitalHouse/EspecializacionBackend/IV%20Bimestre/ProyectoFinal/codeBuster/src/test/resources/features/registroExitoso.feature:9)<br /></pre>
                     </div>
 
                 </div>
@@ -273,38 +273,510 @@
         </div>
     </div>
                     <div class="panel-body">
-                        <a href="pagesource17544582379242986996.html" target="_blank" class="btn btn-info">HTML Source</a>
+                        <a href="pagesource16824030895775439451.html" target="_blank" class="btn btn-info">HTML Source</a>
                     </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="576d38f2b4156088f8b34abb90474274eb1aa9e0955f1bf5c3a4db170bf2e020.png" title=" 1: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
-                <img src="576d38f2b4156088f8b34abb90474274eb1aa9e0955f1bf5c3a4db170bf2e020.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
-                <img src="576d38f2b4156088f8b34abb90474274eb1aa9e0955f1bf5c3a4db170bf2e020.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
-                <img src="576d38f2b4156088f8b34abb90474274eb1aa9e0955f1bf5c3a4db170bf2e020.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
-                <img src="2bc4b9967309e1359f867a9c47e74e71889900643c9e98e6b4b3e1000b8ac105.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
-                <img src="e5cd122cb93c1659d5f5241daa64b0f2837fbc3cc0f3fbb85c0b6789d632a020.png" title=" Tester carga pagina inicial task" width="1920"/>
-                <img src="d748fba967a9e3142c7a752648a854bb7a050ec32809f7e06fd8f441be229714.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
-                <img src="d748fba967a9e3142c7a752648a854bb7a050ec32809f7e06fd8f441be229714.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
-                <img src="d748fba967a9e3142c7a752648a854bb7a050ec32809f7e06fd8f441be229714.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
-                <img src="3ab13906b945e471ac619195e4e475271d5fd235e2c84a696d180172102022dc.png" title=" Tester registro usuario task" width="1920"/>
-                <img src="e102f8677c3af06332dffdbffd5f937e83de7969d83e5799be0ba2cdb62fcc31.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
-                <img src="3a773a3de1975ee3369ee590d6c53f164ee78a533542cb28b34a6f9bae99043e.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
-                <img src="456f9fa3868f9d28950a57415bc7d715123539abf58c5612125c44a0261594a1.png" title=" Tester clicks on Link Registrarse" width="1920"/>
-                <img src="219dc2eaec1ca91b628abe1c4df1c0850442a61165e5f55a9d910240937f0962.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
-                <img src="b2a6628e36c0fae9f0f44a31349c0c457274008276c692ae98a426264cb0ddff.png" title=" Tester enters 'Maricela Vidal' into Input Nombre" width="1920"/>
-                <img src="68133ce6cf47204f94ff94dbfd19665de23cc585be1638a6d728a2ea36987038.png" title=" Tester enters 'Maricela Vidal' into Input Nombre (completed)" width="1920"/>
-                <img src="68133ce6cf47204f94ff94dbfd19665de23cc585be1638a6d728a2ea36987038.png" title=" Tester enters 'norma.silva@prodigy.net.mx' into Input Correo Electronico" width="1920"/>
-                <img src="da4324ac0e1cb9885976c8cb2e908c8000932a564be348e220102c0f5db0d4e2.png" title=" Tester enters 'norma.silva@prodigy.net.mx' into Input Correo Electronico (completed)" width="1920"/>
-                <img src="da4324ac0e1cb9885976c8cb2e908c8000932a564be348e220102c0f5db0d4e2.png" title=" Tester enters 'Maricela##Ir' into Input Contrase&ntilde;a" width="1920"/>
-                <img src="84e619715f47ce575f18dd039fce461d641a058480cbcc8435fc9e22a2440877.png" title=" Tester enters 'Maricela##Ir' into Input Contrase&ntilde;a (completed)" width="1920"/>
-                <img src="84e619715f47ce575f18dd039fce461d641a058480cbcc8435fc9e22a2440877.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
-                <img src="5533f3fc1c90965b6dd5fbafa70952216c259b3d596c3e6315ea226ace53a01e.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
-                <img src="ad20faa8f298da90741212b6b7c7e786ae7409420670fc070136a8a97ea91e84.png" title=" Tester registro usuario task (completed)" width="1920"/>
-                <img src="ad20faa8f298da90741212b6b7c7e786ae7409420670fc070136a8a97ea91e84.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
-                <img src="ad20faa8f298da90741212b6b7c7e786ae7409420670fc070136a8a97ea91e84.png" title=" Y el usuario inicia sesion" width="1920"/>
-                <img src="32fd2cffa7264c94e3ccc8f1058ff0f23a280713f60b4a58c5cf4f9cc3b00507.png" title=" Tester inicio sesion task" width="1920"/>
-                <img src="32fd2cffa7264c94e3ccc8f1058ff0f23a280713f60b4a58c5cf4f9cc3b00507.png" title=" Tester enters 'norma.silva@prodigy.net.mx' into Input Correo Electronico: <span class='error-color'>ERROR</span>" width="1920"/>
+                <img src="5374494832d9bf4438585ef145f19435ae7b0245fa15655376cd572a1c1a6d28.png" title=" 1: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="5374494832d9bf4438585ef145f19435ae7b0245fa15655376cd572a1c1a6d28.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="5374494832d9bf4438585ef145f19435ae7b0245fa15655376cd572a1c1a6d28.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="5374494832d9bf4438585ef145f19435ae7b0245fa15655376cd572a1c1a6d28.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="5374494832d9bf4438585ef145f19435ae7b0245fa15655376cd572a1c1a6d28.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="d198c83f1a494439d1d4748d4eded00d63a8c4f7e37f4d0f339e696ab2ec633f.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="5cb3909c19876bf67f0e25aa05a5fc39ebdadb10ddbc05860fe9ee1b0009570b.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="5cb3909c19876bf67f0e25aa05a5fc39ebdadb10ddbc05860fe9ee1b0009570b.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="5cb3909c19876bf67f0e25aa05a5fc39ebdadb10ddbc05860fe9ee1b0009570b.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="4fa4e20b19f45416e093d950f4450ede6aa1aafa5e418f2107bcac49f955f22b.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="694773d460872f45e2b77032d8dca8da694d31b09528daca113a86897008cc08.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="1e98d061b4af7ace49e18e55fd99ae5fbc0e96636b129a093873d73c1e34059a.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="036374a4b7619b3b14c7fcc6d04bb3b7a2cca618abbee04f1cbbc2cb686b5659.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="1fddf47f4db4971a33162fefd38cd5e46a86fc3b730b58f8269928c91802f035.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Claudia Herrera' into Input Nombre" width="1920"/>
+                <img src="cef867a34e6c20b685b266b77bd3097c21b2471f47f1b6716e9d1b6a6fb2a908.png" title=" Tester enters 'Claudia Herrera' into Input Nombre (completed)" width="1920"/>
+                <img src="cef867a34e6c20b685b266b77bd3097c21b2471f47f1b6716e9d1b6a6fb2a908.png" title=" Tester enters 'carlos.vargas@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="750b4d9128d36bb90ef29da39f5fff08d5539755c7a7b54562ec900ffe7cf3c1.png" title=" Tester enters 'carlos.vargas@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="750b4d9128d36bb90ef29da39f5fff08d5539755c7a7b54562ec900ffe7cf3c1.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="7525175c21c57a389580891d3cd9a647d8b59559e6c201882685666f026cb269.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="7525175c21c57a389580891d3cd9a647d8b59559e6c201882685666f026cb269.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="b759f6bc36a66bf9b0edcefd0f8c08833b3787efebef0c1d97490359f89c9c7a.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="ee6e5c5cea695d9e3c849d445a641ab65c834292874d24d9398551a221861d3a.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="ee6e5c5cea695d9e3c849d445a641ab65c834292874d24d9398551a221861d3a.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="ee6e5c5cea695d9e3c849d445a641ab65c834292874d24d9398551a221861d3a.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="5eebbdf18eb3171bae1e4515b7cf5a368677b0a5727729e666903bdbd9b341ef.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="bfb970250efc29192175ecb13f05edd9a5302a45e9bd82c87b39f01b3bb36a84.png" title=" Tester enters 'carlos.vargas@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="972a5c435d4d3967767a6da80f1b29eb9ed2a0ecaca991f2de81957bd4f6e8dd.png" title=" Tester enters 'carlos.vargas@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="972a5c435d4d3967767a6da80f1b29eb9ed2a0ecaca991f2de81957bd4f6e8dd.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="336594a788d2bb0977174ea1ccd319c113fbe63854111b990bcb8e3f7c5100f1.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="336594a788d2bb0977174ea1ccd319c113fbe63854111b990bcb8e3f7c5100f1.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="0374343ef9c31a92847c321a59148ffd4075e736df193290deb9e838496ea981.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="0374343ef9c31a92847c321a59148ffd4075e736df193290deb9e838496ea981.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="0374343ef9c31a92847c321a59148ffd4075e736df193290deb9e838496ea981.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="0374343ef9c31a92847c321a59148ffd4075e736df193290deb9e838496ea981.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="be4f0dec308f14a56440eded33bd2ebb47fd7c8fd888c8b8ed0f6aa81d43463a.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="e37ce5e9c7f1c5b1f4043e1fdc41c51dc40b045abab5ef8b34eb127959e539d3.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="e37ce5e9c7f1c5b1f4043e1fdc41c51dc40b045abab5ef8b34eb127959e539d3.png" title=" Y el usuario valida el inicio de sesion exitoso (completed)" width="1920"/>
+                <img src="e37ce5e9c7f1c5b1f4043e1fdc41c51dc40b045abab5ef8b34eb127959e539d3.png" title=" Entonces el usuario cierra sesion" width="1920"/>
+                <img src="722ca08632359116eef98787b07257d5efe99a27ce901a78cbb841043888450b.png" title=" Tester cerrar sesion task" width="1920"/>
+                <img src="f24b001efd05429756ef0a9b1c94a8975ab3aafc09dd0a7d03df8d113dbba927.png" title=" Tester clicks on Button Usuario" width="1920"/>
+                <img src="c910b61e966295561d5bd1738a39eb8603e4c2b526248ef899870c2c076337ec.png" title=" Tester clicks on Button Usuario (completed)" width="1920"/>
+                <img src="e43b4be8541c7457f72a76b46a716f42102d4deb54e15a040b8069da7b047bbf.png" title=" Tester clicks on Button Cerrar Sesion" width="1920"/>
+                <img src="a64087f8a33e32341035738873c282ed14a3e6573d9494207ef94363723476ed.png" title=" Tester clicks on Button Cerrar Sesion (completed)" width="1920"/>
+                <img src="a64087f8a33e32341035738873c282ed14a3e6573d9494207ef94363723476ed.png" title=" Tester cerrar sesion task (completed)" width="1920"/>
+                <img src="a64087f8a33e32341035738873c282ed14a3e6573d9494207ef94363723476ed.png" title=" Entonces el usuario cierra sesion (completed)" width="1920"/>
+                <img src="a64087f8a33e32341035738873c282ed14a3e6573d9494207ef94363723476ed.png" title=" 1: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/}) (completed)" width="1920"/>
+                <img src="5a3582c0e3b922d3e571681a5a3c7dbae3b947dd7f383c94540d0c3c68ed5724.png" title=" 2: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="5a3582c0e3b922d3e571681a5a3c7dbae3b947dd7f383c94540d0c3c68ed5724.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="5a3582c0e3b922d3e571681a5a3c7dbae3b947dd7f383c94540d0c3c68ed5724.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="5a3582c0e3b922d3e571681a5a3c7dbae3b947dd7f383c94540d0c3c68ed5724.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="5a3582c0e3b922d3e571681a5a3c7dbae3b947dd7f383c94540d0c3c68ed5724.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="533d3c7335af9cdc300625384d0d1fc5196eb896c3f015a52a6207af9c3f4841.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="834e3804a2fce77d7d38e7af9d4f2830f65cbd8eeb408b5f81cf1dd1be125d04.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="834e3804a2fce77d7d38e7af9d4f2830f65cbd8eeb408b5f81cf1dd1be125d04.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="834e3804a2fce77d7d38e7af9d4f2830f65cbd8eeb408b5f81cf1dd1be125d04.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="968a967e0612cbdd977c5623cd6c5f7cfcf2a183438581b0e1aa6ea0be0126f8.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="722e54b5ae58a314a059b0b7203d9adf156abec9fdb42831b1a5d20a55ebb96e.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="80e49c6b29fea7f6bc85b105aa7413ee0e335669ef948ea38a6883ff54ec69bf.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="a70404e8b42f2f8cd736f9b1dd92865279c87433b4a6f5bcfe51ccb5dad99672.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="3f27a8c0c095f34c9e56e52dbef4bad99719f763f90b0571622a1d84a665fd2c.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Salvador Molina' into Input Nombre" width="1920"/>
+                <img src="fb108815faed017837f753170cc85d83c3ff2ba5d36241fb585a33feb91824e9.png" title=" Tester enters 'Salvador Molina' into Input Nombre (completed)" width="1920"/>
+                <img src="fb108815faed017837f753170cc85d83c3ff2ba5d36241fb585a33feb91824e9.png" title=" Tester enters 'gabriela.quintero@prodigy.net.mx' into Input Correo Electronico" width="1920"/>
+                <img src="c23053e87bda926daf68a465530d55a943e96859712d4529cd85865bb27eee32.png" title=" Tester enters 'gabriela.quintero@prodigy.net.mx' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="c23053e87bda926daf68a465530d55a943e96859712d4529cd85865bb27eee32.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="c34e96721ac6006fb4d2a838499420d727a7152c3a4e424de2835a1ed65d0dd0.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="c34e96721ac6006fb4d2a838499420d727a7152c3a4e424de2835a1ed65d0dd0.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="03dd9fc4d4860a80c517d1572041256bdbd9e5931999d3fdfb4e615a306cb43b.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="2770980564576415d46f1f33be2e3e4b7c1bef0dcc7f94c3568482ba353698eb.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="2770980564576415d46f1f33be2e3e4b7c1bef0dcc7f94c3568482ba353698eb.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="2770980564576415d46f1f33be2e3e4b7c1bef0dcc7f94c3568482ba353698eb.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="2906a41a729dcb353d20b93a91679478558e6ce65c141cd817eee280c9068a96.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="bd0c514882a6a72cc2c8b730c5841af047708c6020abbd975b1170d20ab1b97c.png" title=" Tester enters 'gabriela.quintero@prodigy.net.mx' into Input Correo Electronico" width="1920"/>
+                <img src="aec8bff60f4a3d634ee0f6fb781431dce11e0940098da44d45a3e852a3eb9c7d.png" title=" Tester enters 'gabriela.quintero@prodigy.net.mx' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="aec8bff60f4a3d634ee0f6fb781431dce11e0940098da44d45a3e852a3eb9c7d.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="80b5d585ff8ceb59dc11c626bac4bccd1005fe6873e686956bb85ebbfabf7d0a.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="80b5d585ff8ceb59dc11c626bac4bccd1005fe6873e686956bb85ebbfabf7d0a.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="26896f07e04a2a81c719a544c9c1d1d7fc5e1313f5ac0549bfcde0eb68966db3.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="26896f07e04a2a81c719a544c9c1d1d7fc5e1313f5ac0549bfcde0eb68966db3.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="26896f07e04a2a81c719a544c9c1d1d7fc5e1313f5ac0549bfcde0eb68966db3.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="26896f07e04a2a81c719a544c9c1d1d7fc5e1313f5ac0549bfcde0eb68966db3.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="1a09e2255c1ae5789f6c0f851397260ff0dbfc5d87c15b68f2a715ebf25bd991.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="a4a7630bba5808122c31a9e95ae70feb51f757c92988df73c69cf017c584a13b.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="a4a7630bba5808122c31a9e95ae70feb51f757c92988df73c69cf017c584a13b.png" title=" Y el usuario valida el inicio de sesion exitoso (completed)" width="1920"/>
+                <img src="d05497c6e49070745692861168d22f7b14d66785fd7e151ab83549dc489a1616.png" title=" Entonces el usuario cierra sesion" width="1920"/>
+                <img src="90d804e6b20f6dff767862525727d0b6fd4f0b476d24be02cfd407ed2b12bcc8.png" title=" Tester cerrar sesion task" width="1920"/>
+                <img src="16ff865b1fa851703f0f958540ef1f431df604076b756d94247e51ce3f988141.png" title=" Tester clicks on Button Usuario" width="1920"/>
+                <img src="934a0a35059c9ae5be66627f1ffc860feb5f46c8b94d70b3c49099d284bbc6f5.png" title=" Tester clicks on Button Usuario (completed)" width="1920"/>
+                <img src="319a167e5dacbf2f57006283ea7545b05dd928ccdd5f6afefea9d9063fb2e081.png" title=" Tester clicks on Button Cerrar Sesion" width="1920"/>
+                <img src="108fa9e68208717d562a9dcffeba36c27bef1b5d6c786837f26ea5487959a767.png" title=" Tester clicks on Button Cerrar Sesion (completed)" width="1920"/>
+                <img src="108fa9e68208717d562a9dcffeba36c27bef1b5d6c786837f26ea5487959a767.png" title=" Tester cerrar sesion task (completed)" width="1920"/>
+                <img src="108fa9e68208717d562a9dcffeba36c27bef1b5d6c786837f26ea5487959a767.png" title=" Entonces el usuario cierra sesion (completed)" width="1920"/>
+                <img src="108fa9e68208717d562a9dcffeba36c27bef1b5d6c786837f26ea5487959a767.png" title=" 2: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/}) (completed)" width="1920"/>
+                <img src="51c15673b14b8d9dc93b5ad71541246ad13c068b7c9116426fb070f17886c4a5.png" title=" 3: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="51c15673b14b8d9dc93b5ad71541246ad13c068b7c9116426fb070f17886c4a5.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="51c15673b14b8d9dc93b5ad71541246ad13c068b7c9116426fb070f17886c4a5.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="51c15673b14b8d9dc93b5ad71541246ad13c068b7c9116426fb070f17886c4a5.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="51c15673b14b8d9dc93b5ad71541246ad13c068b7c9116426fb070f17886c4a5.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="d73773a958f3e0f8df152c2b1ee445a7f6ffd558affd179b9dc01df239b0ff30.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="73cc14d21b0bc3c0a688d0a450bf4c457ce27cbd90c2ae6d3868a3cc03873295.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="73cc14d21b0bc3c0a688d0a450bf4c457ce27cbd90c2ae6d3868a3cc03873295.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="73cc14d21b0bc3c0a688d0a450bf4c457ce27cbd90c2ae6d3868a3cc03873295.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="df787453afc910bbe9db641aad252dc244dacdb70d66187736b87206cf251d43.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="2d94ced6c13bf59da1f77b6bdd988b541a54e3181722c273f4dd8197d239400e.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="32178ca50e0e1260106f6655885d7402a3d7aa583f754b0d5bb461f1b282f859.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="d6d50cf8ba24f8091b1eb8466ec27d842621e20d804e23a39170432d6025f607.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="ab0c413a1dd9a83324c773702910b54fcc6df326338a156860f3215ef6180be8.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Aurora Valadez' into Input Nombre" width="1920"/>
+                <img src="a9faa3a4931ba59714ef17c323044d552b5c7db3410cdffcbefca47886502276.png" title=" Tester enters 'Aurora Valadez' into Input Nombre (completed)" width="1920"/>
+                <img src="a9faa3a4931ba59714ef17c323044d552b5c7db3410cdffcbefca47886502276.png" title=" Tester enters 'alicia.castellanos@gmail.com' into Input Correo Electronico" width="1920"/>
+                <img src="5cd91d53d75a53fafe4f1660582a586cfdd70d504d4174f66f785b6aad1bf630.png" title=" Tester enters 'alicia.castellanos@gmail.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="5cd91d53d75a53fafe4f1660582a586cfdd70d504d4174f66f785b6aad1bf630.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="bb70d5cd8018079d8386294e841dc1dab1d0b425ac578a301296816c977798b9.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="bb70d5cd8018079d8386294e841dc1dab1d0b425ac578a301296816c977798b9.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="ba689ccbd88afb58429e022b331febdae8db397dee0e955d93e099c11a47cc23.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="9a11cefdd7b504be42bcee082fe33a7437c430e316c2266e590f56d9db3a7cb1.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="9a11cefdd7b504be42bcee082fe33a7437c430e316c2266e590f56d9db3a7cb1.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="9a11cefdd7b504be42bcee082fe33a7437c430e316c2266e590f56d9db3a7cb1.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="08e23290a6745e6e449ab6f25bfb3e799ebfb9cace63b7d79dae046fd0b4458f.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="5bdff780d3316529127120564a5c58d969a92e4dce7531a544c6d3706cefd3d5.png" title=" Tester enters 'alicia.castellanos@gmail.com' into Input Correo Electronico" width="1920"/>
+                <img src="b624e9ff12f0438fd7c232043fa4eb7fa92b3f74502f39acfea9d7287a44689d.png" title=" Tester enters 'alicia.castellanos@gmail.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="b624e9ff12f0438fd7c232043fa4eb7fa92b3f74502f39acfea9d7287a44689d.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="8091a454094005d028ac257468f7ab6f6c802524f7fc45d88d59666d7258e418.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="8091a454094005d028ac257468f7ab6f6c802524f7fc45d88d59666d7258e418.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="7bcccfe250f569e1f698027010a093af7d135bb2d91511373bb9aaff293ef30e.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="7bcccfe250f569e1f698027010a093af7d135bb2d91511373bb9aaff293ef30e.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="7bcccfe250f569e1f698027010a093af7d135bb2d91511373bb9aaff293ef30e.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="7bcccfe250f569e1f698027010a093af7d135bb2d91511373bb9aaff293ef30e.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="973239da787ed86da2f70705bea8b882c3d43d475d1983bbd5e7bee2c8d76c7d.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="f445066cff50d5cd9c71351657145a03288dd925071f44bd2efe32222cc444de.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="f445066cff50d5cd9c71351657145a03288dd925071f44bd2efe32222cc444de.png" title=" Y el usuario valida el inicio de sesion exitoso (completed)" width="1920"/>
+                <img src="f445066cff50d5cd9c71351657145a03288dd925071f44bd2efe32222cc444de.png" title=" Entonces el usuario cierra sesion" width="1920"/>
+                <img src="c9e40bb93d3ad4fd3e80348b816c2404f9a04c62c5eacc738561ee8594c014a5.png" title=" Tester cerrar sesion task" width="1920"/>
+                <img src="2023d28bbaba2c896d4cd2b3ef514111dc9243a2f1765cd42194797d0e93cc79.png" title=" Tester clicks on Button Usuario" width="1920"/>
+                <img src="50bd1552cb40f3b0533b8fc754335bab8c292d765a7f5580593534330f6b3df2.png" title=" Tester clicks on Button Usuario (completed)" width="1920"/>
+                <img src="09fad76f2619b3d0ab36f6c18b93e2093ea5256708ae12d7492995f03792a809.png" title=" Tester clicks on Button Cerrar Sesion" width="1920"/>
+                <img src="e4e957e7ce0a9fe4b387f7d628e39147c40fd07671718dfae5815b22e478b958.png" title=" Tester clicks on Button Cerrar Sesion (completed)" width="1920"/>
+                <img src="e4e957e7ce0a9fe4b387f7d628e39147c40fd07671718dfae5815b22e478b958.png" title=" Tester cerrar sesion task (completed)" width="1920"/>
+                <img src="e4e957e7ce0a9fe4b387f7d628e39147c40fd07671718dfae5815b22e478b958.png" title=" Entonces el usuario cierra sesion (completed)" width="1920"/>
+                <img src="e4e957e7ce0a9fe4b387f7d628e39147c40fd07671718dfae5815b22e478b958.png" title=" 3: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/}) (completed)" width="1920"/>
+                <img src="921d8a81bdd141bbcec8d08932ad3b4b2a54ff8bc95ee3d3cb01de646cb782cd.png" title=" 4: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="921d8a81bdd141bbcec8d08932ad3b4b2a54ff8bc95ee3d3cb01de646cb782cd.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="921d8a81bdd141bbcec8d08932ad3b4b2a54ff8bc95ee3d3cb01de646cb782cd.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="921d8a81bdd141bbcec8d08932ad3b4b2a54ff8bc95ee3d3cb01de646cb782cd.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="921d8a81bdd141bbcec8d08932ad3b4b2a54ff8bc95ee3d3cb01de646cb782cd.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="89191c2b7c8b9c84be75a6b5eed7cd2d0769d1453f78e0156efd9d51ab7ef3a7.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="84f8f32ddcca52ef593aac8b58577f9cfc5b323a12441a3b50cc90f76993c791.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="84f8f32ddcca52ef593aac8b58577f9cfc5b323a12441a3b50cc90f76993c791.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="84f8f32ddcca52ef593aac8b58577f9cfc5b323a12441a3b50cc90f76993c791.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="a8b97fa0af776f01bf10686d1a1d890ebebf52c306e5586e5efcc6f03166a20a.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="c3847e69b27e3a43921251da448091f34a0287407d7ad593a7b8aabdcad63c5e.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="f7a56fb4700be864be513dfed593003cd26e9d6b91c10c1883f63f99b27e8c0c.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="7df8b30abc5631a6114dfc7adb90ac6a834e56820a74e7b9719840c48be60980.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="1fddf47f4db4971a33162fefd38cd5e46a86fc3b730b58f8269928c91802f035.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Omar Vald&eacute;s' into Input Nombre" width="1920"/>
+                <img src="1eb4d8d3decfb65f52f1b4cc91ce2f079103e04cd39d2cefc6325bacc0fcbe11.png" title=" Tester enters 'Omar Vald&eacute;s' into Input Nombre (completed)" width="1920"/>
+                <img src="1eb4d8d3decfb65f52f1b4cc91ce2f079103e04cd39d2cefc6325bacc0fcbe11.png" title=" Tester enters 'angelica.felix@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="5d49dd1ec0f707a3a0964aa7e397b96fa5bdd7bb4e6540a8ee1e82a746045f27.png" title=" Tester enters 'angelica.felix@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="5d49dd1ec0f707a3a0964aa7e397b96fa5bdd7bb4e6540a8ee1e82a746045f27.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="ee3bf76427ecb4939793e370142b72e6a186571df67f161eaefd0882725273a1.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="ee3bf76427ecb4939793e370142b72e6a186571df67f161eaefd0882725273a1.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="b8309a43ccad95e4d8312f6573e7fe66877279eef782dd7d28b4ba6fa44b8e9d.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="c841ff3bd9714cdae4e7a6bc50189087f59448f2d3b470da8d6d8c584e2be481.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="c841ff3bd9714cdae4e7a6bc50189087f59448f2d3b470da8d6d8c584e2be481.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="c841ff3bd9714cdae4e7a6bc50189087f59448f2d3b470da8d6d8c584e2be481.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="ba5df2128fa53e4bb68037f8a52332fe0b023fd66757b43fb9bbc68eb4096267.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="adbe5807a058e6513b57427972184d0d5fcca1196632f13821a3ce249774e29b.png" title=" Tester enters 'angelica.felix@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="d9dd47564d8e1676016552f90de70fd8934f60266bf74eb873d8684ac302d665.png" title=" Tester enters 'angelica.felix@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="d9dd47564d8e1676016552f90de70fd8934f60266bf74eb873d8684ac302d665.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="99a76c4ec3d03280cb790184916b0845fc7e1532704366b4421b4dafb9fdcae0.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="99a76c4ec3d03280cb790184916b0845fc7e1532704366b4421b4dafb9fdcae0.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="d1fa33c534dbfc8fc0ab90490a45a73ff21a2173aefc88afb8efab8c1421b3ad.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="d1fa33c534dbfc8fc0ab90490a45a73ff21a2173aefc88afb8efab8c1421b3ad.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="d1fa33c534dbfc8fc0ab90490a45a73ff21a2173aefc88afb8efab8c1421b3ad.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="d1fa33c534dbfc8fc0ab90490a45a73ff21a2173aefc88afb8efab8c1421b3ad.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="1f8feede10e9c640688f4c16c581e0b8d79fa433c5157b5bf471514792c2e33b.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="68cc06a30c0aae7ac211b6b3c997e5b0737878e1d80639b08dd4f85c92188b86.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="68cc06a30c0aae7ac211b6b3c997e5b0737878e1d80639b08dd4f85c92188b86.png" title=" Y el usuario valida el inicio de sesion exitoso (completed)" width="1920"/>
+                <img src="68cc06a30c0aae7ac211b6b3c997e5b0737878e1d80639b08dd4f85c92188b86.png" title=" Entonces el usuario cierra sesion" width="1920"/>
+                <img src="459ae38275f220d53ce8106a17573998db29e26e1c296a3283fbef79828693af.png" title=" Tester cerrar sesion task" width="1920"/>
+                <img src="3990fec6f185cfc0359afa35a560474733045b5a33ef2cca1f853d449639d15c.png" title=" Tester clicks on Button Usuario" width="1920"/>
+                <img src="6626ac15298b69eb77888b7b5706f48ea41450747bdf7c12f9ed44a3143b1a02.png" title=" Tester clicks on Button Usuario (completed)" width="1920"/>
+                <img src="f46c5085027bdde45648b509afee6b2cacdc9d5c25f81ad7e0574c6a45690a30.png" title=" Tester clicks on Button Cerrar Sesion" width="1920"/>
+                <img src="2045b219498a129e00e28931e539ab742b4ff931543db550dd9c93fe3cdebe66.png" title=" Tester clicks on Button Cerrar Sesion (completed)" width="1920"/>
+                <img src="2045b219498a129e00e28931e539ab742b4ff931543db550dd9c93fe3cdebe66.png" title=" Tester cerrar sesion task (completed)" width="1920"/>
+                <img src="2045b219498a129e00e28931e539ab742b4ff931543db550dd9c93fe3cdebe66.png" title=" Entonces el usuario cierra sesion (completed)" width="1920"/>
+                <img src="2045b219498a129e00e28931e539ab742b4ff931543db550dd9c93fe3cdebe66.png" title=" 4: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/}) (completed)" width="1920"/>
+                <img src="80348ad3c437db6cad6881ae24e1affa6dfdaea1e1ea0336197f8b99369b2aee.png" title=" 5: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="80348ad3c437db6cad6881ae24e1affa6dfdaea1e1ea0336197f8b99369b2aee.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="80348ad3c437db6cad6881ae24e1affa6dfdaea1e1ea0336197f8b99369b2aee.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="80348ad3c437db6cad6881ae24e1affa6dfdaea1e1ea0336197f8b99369b2aee.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="80348ad3c437db6cad6881ae24e1affa6dfdaea1e1ea0336197f8b99369b2aee.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="d1a700e053529dcc4d218fd89ba00ee805198a9362cd8539cc77e12f2dd7509a.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="44761054de7ea61e304b6a58d0aa959b9680a54c35b58e1b27aa5fdc37d76324.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="44761054de7ea61e304b6a58d0aa959b9680a54c35b58e1b27aa5fdc37d76324.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="44761054de7ea61e304b6a58d0aa959b9680a54c35b58e1b27aa5fdc37d76324.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="bf1a97d1f32c4c06c8a72afd39a7103c85bb1c1e70e4fd51cbbcab1f4659aded.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="3bf681f1f0adb93dcae931208560262e5cb0ada7b3963c5edd06f422405a7798.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="91a660c21974b49f0a10947a287c3dc593a5020adc8317369bbb720a63415e72.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="7df8b30abc5631a6114dfc7adb90ac6a834e56820a74e7b9719840c48be60980.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="1fddf47f4db4971a33162fefd38cd5e46a86fc3b730b58f8269928c91802f035.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Marcos Saucedo' into Input Nombre" width="1920"/>
+                <img src="e53b61a4aae463fbbbbd0d57e4e1d55adf6b04ddf842d8faaecd592e9ae42b2c.png" title=" Tester enters 'Marcos Saucedo' into Input Nombre (completed)" width="1920"/>
+                <img src="e53b61a4aae463fbbbbd0d57e4e1d55adf6b04ddf842d8faaecd592e9ae42b2c.png" title=" Tester enters 'lucia.jimenez@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="d00920843ba85cf798ae714bad3837846d1489f66d66e87e513e1ac44f897a80.png" title=" Tester enters 'lucia.jimenez@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="d00920843ba85cf798ae714bad3837846d1489f66d66e87e513e1ac44f897a80.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="882d2de5e5cb889bf225bc39dcd6836a46e67bcfe4d53885d3a19c723ab927ab.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="882d2de5e5cb889bf225bc39dcd6836a46e67bcfe4d53885d3a19c723ab927ab.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="eaccd8b0cbc0518a86f745fb85948d461ec601db6ba5b0711356176c0557409d.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="96a047988098dce6829c3d40e2844ca0d02a3ba618a3a80fd243eef99edd935d.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="96a047988098dce6829c3d40e2844ca0d02a3ba618a3a80fd243eef99edd935d.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="96a047988098dce6829c3d40e2844ca0d02a3ba618a3a80fd243eef99edd935d.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="1288d74d75d728a30ba33cf81f1e95fbc09a409cd11e9d0ec6c558f5a821517d.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="1b5c0ff0727531307f5ca47d0d2130cd9b07e62fd0cf77c4bce2223c6bee75b3.png" title=" Tester enters 'lucia.jimenez@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="8df7ea4c8cef856aaef7b4a6d3be265ef2f6ceeb6f1fdeb59c5123d791728242.png" title=" Tester enters 'lucia.jimenez@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="8df7ea4c8cef856aaef7b4a6d3be265ef2f6ceeb6f1fdeb59c5123d791728242.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="b4a1a18b02fb3cda46f17ebb6571690820c4daa1efc1cbf4ab4d3f252a031214.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="b4a1a18b02fb3cda46f17ebb6571690820c4daa1efc1cbf4ab4d3f252a031214.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="5932cf66479e942ee8e3ffc218ebdb20ece0b348b9d0824b285c81cfddbe6f21.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="5932cf66479e942ee8e3ffc218ebdb20ece0b348b9d0824b285c81cfddbe6f21.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="5932cf66479e942ee8e3ffc218ebdb20ece0b348b9d0824b285c81cfddbe6f21.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="5932cf66479e942ee8e3ffc218ebdb20ece0b348b9d0824b285c81cfddbe6f21.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="607578cac6c3c449e3f24a43d126ad58e82a20217901eb1c9d516fbdbb576838.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="eab5954e814d96c42d9ee08e492d50f07e138367d42b720873f5613bdf1dfe6f.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="eab5954e814d96c42d9ee08e492d50f07e138367d42b720873f5613bdf1dfe6f.png" title=" Y el usuario valida el inicio de sesion exitoso (completed)" width="1920"/>
+                <img src="eab5954e814d96c42d9ee08e492d50f07e138367d42b720873f5613bdf1dfe6f.png" title=" Entonces el usuario cierra sesion" width="1920"/>
+                <img src="45311d2b8e01b84ddbb17c101deec556eee17db18ae3d7844361f9b0a8e6ddb8.png" title=" Tester cerrar sesion task" width="1920"/>
+                <img src="5dc6f371ed3fd6e4b046c68f137a73906419f7c5a36c124f0e85d878a02d7b34.png" title=" Tester clicks on Button Usuario" width="1920"/>
+                <img src="037db168c2e1a0920a4ea9e8cca99bb237165b39ca19b2cf7d578200afe38388.png" title=" Tester clicks on Button Usuario (completed)" width="1920"/>
+                <img src="b35cfec843a63ec265f6707b1b6af10178accdc06cf5c24e4b52c89b5e3b5f85.png" title=" Tester clicks on Button Cerrar Sesion" width="1920"/>
+                <img src="051f962638e10495872ef050a2c110d39c9249d89645ca2d7219fffc97027a04.png" title=" Tester clicks on Button Cerrar Sesion (completed)" width="1920"/>
+                <img src="051f962638e10495872ef050a2c110d39c9249d89645ca2d7219fffc97027a04.png" title=" Tester cerrar sesion task (completed)" width="1920"/>
+                <img src="051f962638e10495872ef050a2c110d39c9249d89645ca2d7219fffc97027a04.png" title=" Entonces el usuario cierra sesion (completed)" width="1920"/>
+                <img src="051f962638e10495872ef050a2c110d39c9249d89645ca2d7219fffc97027a04.png" title=" 5: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/}) (completed)" width="1920"/>
+                <img src="9399299fb9327338f006a7cb0c9076703067340812ab56b8fab30cb2067833a6.png" title=" 6: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="9399299fb9327338f006a7cb0c9076703067340812ab56b8fab30cb2067833a6.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="9399299fb9327338f006a7cb0c9076703067340812ab56b8fab30cb2067833a6.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="9399299fb9327338f006a7cb0c9076703067340812ab56b8fab30cb2067833a6.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="9399299fb9327338f006a7cb0c9076703067340812ab56b8fab30cb2067833a6.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="9f3abedb75d34dcaab5d0746766bb7a1a0d99c9de5340c9d3b8df9397d15326e.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="3a4f1c10d59cb82ef0c89b8a7026d7ee8445b4494af250cfea5771728ab71965.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="3a4f1c10d59cb82ef0c89b8a7026d7ee8445b4494af250cfea5771728ab71965.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="3a4f1c10d59cb82ef0c89b8a7026d7ee8445b4494af250cfea5771728ab71965.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="709cd9fd39a6394c6b26e248a2044593e99c97a7f6d6999e9439f5c89b6dfb5a.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="709cd9fd39a6394c6b26e248a2044593e99c97a7f6d6999e9439f5c89b6dfb5a.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="b6a87e7fe1d2e92ba1680860c67b48dae79561c3d7fd597dbc693b6f588501a1.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="7df8b30abc5631a6114dfc7adb90ac6a834e56820a74e7b9719840c48be60980.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="1fddf47f4db4971a33162fefd38cd5e46a86fc3b730b58f8269928c91802f035.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Jos&eacute; Guadalupe Gardu&ntilde;o' into Input Nombre" width="1920"/>
+                <img src="64a09ba570ce5db7f9c7591226903678b895e6ab57310bb17f0f968faf30f6e1.png" title=" Tester enters 'Jos&eacute; Guadalupe Gardu&ntilde;o' into Input Nombre (completed)" width="1920"/>
+                <img src="64a09ba570ce5db7f9c7591226903678b895e6ab57310bb17f0f968faf30f6e1.png" title=" Tester enters 'irma.beltran@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="8b47ae25978dbb677860686b7756150e2eaed820df46d507abc524eac326ba58.png" title=" Tester enters 'irma.beltran@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="8b47ae25978dbb677860686b7756150e2eaed820df46d507abc524eac326ba58.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="c0a14edb329355fd5bde18f823ad3cac6c1de15d1b52578f1b29b2240a092142.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="c0a14edb329355fd5bde18f823ad3cac6c1de15d1b52578f1b29b2240a092142.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="ccab17ca6c82a277d2ccab16373219e072f2fae539ea76615a65efaa560bc45f.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="6b6cfa056b905e00bacb0efa62f46f8ee02aa6169b6e51e20f597c65f0419f45.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="6b6cfa056b905e00bacb0efa62f46f8ee02aa6169b6e51e20f597c65f0419f45.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="6b6cfa056b905e00bacb0efa62f46f8ee02aa6169b6e51e20f597c65f0419f45.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="3c3a8fd412c8a1c4030dfb7d2bf5af1169919eda49df670ef21b6220107fb783.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="72bee5c40953af98a47ba35b9c644f97a09f0c2a0addd02751fb15011383d9ee.png" title=" Tester enters 'irma.beltran@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="50b9243a6d2f1bc3f17533029eb1d708c0efa549f8ed99bf545dacc67b6c0e33.png" title=" Tester enters 'irma.beltran@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="50b9243a6d2f1bc3f17533029eb1d708c0efa549f8ed99bf545dacc67b6c0e33.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="eea6de849670fa5f90c5d1e7d63cadddb73c3a31472477b83d1299e319b826a9.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="eea6de849670fa5f90c5d1e7d63cadddb73c3a31472477b83d1299e319b826a9.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="26a889eab4bcbc6ac14480141204c700ff1ae4ededcc500411436c31c49a94f4.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="26a889eab4bcbc6ac14480141204c700ff1ae4ededcc500411436c31c49a94f4.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="26a889eab4bcbc6ac14480141204c700ff1ae4ededcc500411436c31c49a94f4.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="26a889eab4bcbc6ac14480141204c700ff1ae4ededcc500411436c31c49a94f4.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="2102f6a77febe389bea532ad675372a5271f5be7374fd559ecf963a03b370cdf.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="a23bc34ef6a6534ed70c527319d1aa2af1a0517c78063fffbb35fc1fffc0de6c.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="aed2ec0eaea8d7ad1abd3c6a9b5388dc06dc8dfa5648e3a4fb47c2ffd2ba8648.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="5ad8a32831dc524ef816a875df343c04c71e9537dede2edda70ed255f3c3380e.png" title=" 7: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="5ad8a32831dc524ef816a875df343c04c71e9537dede2edda70ed255f3c3380e.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="5ad8a32831dc524ef816a875df343c04c71e9537dede2edda70ed255f3c3380e.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="5ad8a32831dc524ef816a875df343c04c71e9537dede2edda70ed255f3c3380e.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="5ad8a32831dc524ef816a875df343c04c71e9537dede2edda70ed255f3c3380e.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="bc2fcaaec3b8a0559013fe73e329b3cad494671c3f2c9c22e070ae126250dd29.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="eb0ef3db6b96dea419ac56845989365980bec6f9b2ea2d73e98d44df56df0669.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="eb0ef3db6b96dea419ac56845989365980bec6f9b2ea2d73e98d44df56df0669.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="eb0ef3db6b96dea419ac56845989365980bec6f9b2ea2d73e98d44df56df0669.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="6cbc39e1777a910e52865bf2c8f009f6bc8c41c3c13455b17ec4ae27abb711c6.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="b94886282dfb87148c0a25987f97db6647905a57e5fabb4ae7a48f33dc967afd.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="f24215e525aa39135547d5756ff6327eb97b296ce8d10c19d2c8a3b1b494c054.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="7df8b30abc5631a6114dfc7adb90ac6a834e56820a74e7b9719840c48be60980.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="1fddf47f4db4971a33162fefd38cd5e46a86fc3b730b58f8269928c91802f035.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Armando Robles' into Input Nombre" width="1920"/>
+                <img src="95af658893c46c8328cc97686663b7608ac52401f4304fd96513a1158c932032.png" title=" Tester enters 'Armando Robles' into Input Nombre (completed)" width="1920"/>
+                <img src="95af658893c46c8328cc97686663b7608ac52401f4304fd96513a1158c932032.png" title=" Tester enters 'gloria.alcantara@prodigy.net.mx' into Input Correo Electronico" width="1920"/>
+                <img src="60aca3ce6656886e9b468618bdf2bba80486e5cd371252552e60ff2d8645724b.png" title=" Tester enters 'gloria.alcantara@prodigy.net.mx' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="60aca3ce6656886e9b468618bdf2bba80486e5cd371252552e60ff2d8645724b.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="448fed3f9217b32c1efe00fc842205af74797002ae9ccd325d4da91dc3d50a5e.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="448fed3f9217b32c1efe00fc842205af74797002ae9ccd325d4da91dc3d50a5e.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="4e18bc6956768e10bcd327cf7bfc60448fb8481526fcb492ca8e76151b05eac0.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="d8559d1c4746aa44c73cca7ca3fabda17b86f7201f0f05d116a1ea4294a19ba3.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="d8559d1c4746aa44c73cca7ca3fabda17b86f7201f0f05d116a1ea4294a19ba3.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="d8559d1c4746aa44c73cca7ca3fabda17b86f7201f0f05d116a1ea4294a19ba3.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="09157d28ce87fd7beba2e81f4f007da7ecd89d04267e40e41c7fcc9b0863bbca.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="fee30726f0c928431b8c9b7098e39ee3005bb164e3092e32d2e8bb1b65248e71.png" title=" Tester enters 'gloria.alcantara@prodigy.net.mx' into Input Correo Electronico" width="1920"/>
+                <img src="ca631cac976e54dee15526766c24a4c9815581d379a1ce89d5d464a09c82abd1.png" title=" Tester enters 'gloria.alcantara@prodigy.net.mx' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="ca631cac976e54dee15526766c24a4c9815581d379a1ce89d5d464a09c82abd1.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="0a203fbe71427c15d514fa35a1b8ef5990170a9e7f6ada9e49e1dd4820aed98d.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="0a203fbe71427c15d514fa35a1b8ef5990170a9e7f6ada9e49e1dd4820aed98d.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="083f23470fb9589778953d1018139fc0d87144b1964090caad67d40dc99d75d6.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="083f23470fb9589778953d1018139fc0d87144b1964090caad67d40dc99d75d6.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="083f23470fb9589778953d1018139fc0d87144b1964090caad67d40dc99d75d6.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="083f23470fb9589778953d1018139fc0d87144b1964090caad67d40dc99d75d6.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="1169a4bb28f2337c0b4b311a14259820324ea7d975b5a67a53983f9a64cec82e.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="ceee57345c841086f3b6adfdd36896e174a93c90877061bacc866f4df4d1c1a1.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="ceee57345c841086f3b6adfdd36896e174a93c90877061bacc866f4df4d1c1a1.png" title=" Y el usuario valida el inicio de sesion exitoso (completed)" width="1920"/>
+                <img src="ceee57345c841086f3b6adfdd36896e174a93c90877061bacc866f4df4d1c1a1.png" title=" Entonces el usuario cierra sesion" width="1920"/>
+                <img src="89a862bc132b1c2ac290fd9abceca23915fc3d5fbf581efa3056ed252811b683.png" title=" Tester cerrar sesion task" width="1920"/>
+                <img src="ffd3894901380ab933417bdad851ee628bd53fab2f81c7e0ea1d444e2bcefb21.png" title=" Tester clicks on Button Usuario" width="1920"/>
+                <img src="73dd5741887f746d7666ed8e8e910f1600107ccff581144c7b80dc035ad7981f.png" title=" Tester clicks on Button Usuario (completed)" width="1920"/>
+                <img src="3c4eec7b712b5711ef03393a00bf4a26afdb8e6302642d1e3713f618b76e80da.png" title=" Tester clicks on Button Cerrar Sesion" width="1920"/>
+                <img src="821e64ae02c832e4c20c8e3a2259f5aeacbd773eb1b203fa2cedaa7f54a6ef2f.png" title=" Tester clicks on Button Cerrar Sesion (completed)" width="1920"/>
+                <img src="821e64ae02c832e4c20c8e3a2259f5aeacbd773eb1b203fa2cedaa7f54a6ef2f.png" title=" Tester cerrar sesion task (completed)" width="1920"/>
+                <img src="821e64ae02c832e4c20c8e3a2259f5aeacbd773eb1b203fa2cedaa7f54a6ef2f.png" title=" Entonces el usuario cierra sesion (completed)" width="1920"/>
+                <img src="821e64ae02c832e4c20c8e3a2259f5aeacbd773eb1b203fa2cedaa7f54a6ef2f.png" title=" 7: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/}) (completed)" width="1920"/>
+                <img src="d2b37cbf269bd9e9d933d2df1c96ee6eeffd1d27da0107d41523a2b8f99bf602.png" title=" 8: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="d2b37cbf269bd9e9d933d2df1c96ee6eeffd1d27da0107d41523a2b8f99bf602.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="d2b37cbf269bd9e9d933d2df1c96ee6eeffd1d27da0107d41523a2b8f99bf602.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="d2b37cbf269bd9e9d933d2df1c96ee6eeffd1d27da0107d41523a2b8f99bf602.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="d2b37cbf269bd9e9d933d2df1c96ee6eeffd1d27da0107d41523a2b8f99bf602.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="c0814ba529f267c7bf87ba141088e5e208e16e394c991eba4cef06906f8cb7af.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="dd4d1c20c810337d5ac0d3c835b5bc4299e90395737f257bafd64abfa378562d.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="dd4d1c20c810337d5ac0d3c835b5bc4299e90395737f257bafd64abfa378562d.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="dd4d1c20c810337d5ac0d3c835b5bc4299e90395737f257bafd64abfa378562d.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="93787a93dbd9fa9caa8875e3c139fd6206c7964e25faa70f1c5b135f36a5bc59.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="93787a93dbd9fa9caa8875e3c139fd6206c7964e25faa70f1c5b135f36a5bc59.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="125560267fe855780d9c92a94f9c151dd802a0963dcd6c2de806c2b76f4576bd.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="7df8b30abc5631a6114dfc7adb90ac6a834e56820a74e7b9719840c48be60980.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="dea025dd0ade22f7c2d413b42b3ece5dce9233cbf30adccbae09520ad3e264d7.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Carlos Quintana' into Input Nombre" width="1920"/>
+                <img src="38811ddcd38c08df3ed1bac2da09d792c210e98ace701e83f7c9880d659a6795.png" title=" Tester enters 'Carlos Quintana' into Input Nombre (completed)" width="1920"/>
+                <img src="38811ddcd38c08df3ed1bac2da09d792c210e98ace701e83f7c9880d659a6795.png" title=" Tester enters 'micaela.franco@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="100799b6d92b99ca4a23a3faefa45887c15a967a12412057e2c1528af984bc8b.png" title=" Tester enters 'micaela.franco@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="100799b6d92b99ca4a23a3faefa45887c15a967a12412057e2c1528af984bc8b.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="ba9afe79c56009f57b4841ed00e3672bf9d98385a35d776410c3e14bbba68883.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="ba9afe79c56009f57b4841ed00e3672bf9d98385a35d776410c3e14bbba68883.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="a2966fdf9e667fa613513c3e018195d8797dc6f4878d7b691a725acf56eff5d2.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="f5bcfe856b675cc7aff10a93c550a8890ab35a4f5b5e25241721c16f273e7e85.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="f5bcfe856b675cc7aff10a93c550a8890ab35a4f5b5e25241721c16f273e7e85.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="f5bcfe856b675cc7aff10a93c550a8890ab35a4f5b5e25241721c16f273e7e85.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="5cde5f25ffab39ed5812adb9c50223e306d68ad13d3ed01dad7690a247d31644.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="2c6a758ffb91407ea7a77e7f8cbbb0d512d994ac83231e52b0a96c249ba1e329.png" title=" Tester enters 'micaela.franco@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="a08cebbe2d2b04c275cc8a2e27f71d4263351a7ac893c341fcaaef8b3d67c413.png" title=" Tester enters 'micaela.franco@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="a08cebbe2d2b04c275cc8a2e27f71d4263351a7ac893c341fcaaef8b3d67c413.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="4320b9a94055130e0013f28b617f78f41cad726ffe7956ad569fb53ad800dcb3.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="4320b9a94055130e0013f28b617f78f41cad726ffe7956ad569fb53ad800dcb3.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="df8442ea3b5b16d0b44a8b2434b88c2a7423925e2c6cc820cec41d6033617ce0.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="df8442ea3b5b16d0b44a8b2434b88c2a7423925e2c6cc820cec41d6033617ce0.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="df8442ea3b5b16d0b44a8b2434b88c2a7423925e2c6cc820cec41d6033617ce0.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="df8442ea3b5b16d0b44a8b2434b88c2a7423925e2c6cc820cec41d6033617ce0.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="55a2706bc4c16cae359db0c66963b923007d1d473126100ab350bd98bc7318f5.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="623e394b4af39bb44e8ff1a6fc7ca050f843d8a8c460da011540ef4a82c75aa4.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="623e394b4af39bb44e8ff1a6fc7ca050f843d8a8c460da011540ef4a82c75aa4.png" title=" Y el usuario valida el inicio de sesion exitoso (completed)" width="1920"/>
+                <img src="623e394b4af39bb44e8ff1a6fc7ca050f843d8a8c460da011540ef4a82c75aa4.png" title=" Entonces el usuario cierra sesion" width="1920"/>
+                <img src="080412a14c9626d96fe33a4ee6b60d4868727bdb47425eda08d21fcb713fafac.png" title=" Tester cerrar sesion task" width="1920"/>
+                <img src="e85aa0745765cd8deeca1ccccb35a8caef8847b7efcce7515b343dbce52b3244.png" title=" Tester clicks on Button Usuario" width="1920"/>
+                <img src="b5ea8e83428ae6c3ebd81adc9bd89b64e79993ba325750682fa1b4f5eae1bdc0.png" title=" Tester clicks on Button Usuario (completed)" width="1920"/>
+                <img src="6ebab61bbfea0948674e5e3bb3342d54053babf24e1726c02e17a6dd36ccff7e.png" title=" Tester clicks on Button Cerrar Sesion" width="1920"/>
+                <img src="d33f120e94ba5941930790f6abdac27132c0d62db0d51fc701d2ed23957158ad.png" title=" Tester clicks on Button Cerrar Sesion (completed)" width="1920"/>
+                <img src="d33f120e94ba5941930790f6abdac27132c0d62db0d51fc701d2ed23957158ad.png" title=" Tester cerrar sesion task (completed)" width="1920"/>
+                <img src="d33f120e94ba5941930790f6abdac27132c0d62db0d51fc701d2ed23957158ad.png" title=" Entonces el usuario cierra sesion (completed)" width="1920"/>
+                <img src="d33f120e94ba5941930790f6abdac27132c0d62db0d51fc701d2ed23957158ad.png" title=" 8: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/}) (completed)" width="1920"/>
+                <img src="85f34ff3ca3219e399e90d2356ec4d880e253edd55a3656792ebfed8f878bfb7.png" title=" 9: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="85f34ff3ca3219e399e90d2356ec4d880e253edd55a3656792ebfed8f878bfb7.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="85f34ff3ca3219e399e90d2356ec4d880e253edd55a3656792ebfed8f878bfb7.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="85f34ff3ca3219e399e90d2356ec4d880e253edd55a3656792ebfed8f878bfb7.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="85f34ff3ca3219e399e90d2356ec4d880e253edd55a3656792ebfed8f878bfb7.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="3946a356d8024a0040897ecf00fcaae02d02896731a19f23f007a58b3960fa1e.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="a751851ece39b70af5d4dfe6526485f2af22387c71f9638e12ca6028be9b07bf.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="a751851ece39b70af5d4dfe6526485f2af22387c71f9638e12ca6028be9b07bf.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="a751851ece39b70af5d4dfe6526485f2af22387c71f9638e12ca6028be9b07bf.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="779945d0a614eb734826041d1ca6036ad97a44f0221bf844557ccf050e99db75.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="5af0c003bd21ce925f0ec9acb1d62ba9dc5996af2595c0622cd5c76430ac2c29.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="7a4ea6ed21ca10291675e55421b32688b95ae54af31465c57378b966b2f35b77.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="7df8b30abc5631a6114dfc7adb90ac6a834e56820a74e7b9719840c48be60980.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="1fddf47f4db4971a33162fefd38cd5e46a86fc3b730b58f8269928c91802f035.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Sof&iacute;a Alc&aacute;ntara' into Input Nombre" width="1920"/>
+                <img src="2935c9a2053064bd2d503b7247e42ddec1145f48b518b08e1551076443083f35.png" title=" Tester enters 'Sof&iacute;a Alc&aacute;ntara' into Input Nombre (completed)" width="1920"/>
+                <img src="2935c9a2053064bd2d503b7247e42ddec1145f48b518b08e1551076443083f35.png" title=" Tester enters 'luisalberto.mendoza@gmail.com' into Input Correo Electronico" width="1920"/>
+                <img src="f8fa7ee1e65ed3ca1595d00f184ac6b125b2e70ff0ff64b8546df51db6c05703.png" title=" Tester enters 'luisalberto.mendoza@gmail.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="f8fa7ee1e65ed3ca1595d00f184ac6b125b2e70ff0ff64b8546df51db6c05703.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="647ca9a13002b37b949c61da368a321db8c9244061ae9c8907c3d3df85f9dcf5.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="647ca9a13002b37b949c61da368a321db8c9244061ae9c8907c3d3df85f9dcf5.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="3a99589364a43a5966f3632413a3a9799f4cea31bda8aafceca6b858bf6cc374.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="f8ee29f1745d76d2fe6c6f87a39692e0f379287a647ad12fa56ab89f08aa7496.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="f8ee29f1745d76d2fe6c6f87a39692e0f379287a647ad12fa56ab89f08aa7496.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="f8ee29f1745d76d2fe6c6f87a39692e0f379287a647ad12fa56ab89f08aa7496.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="56c97cb6b4d8b36404a60a5cdeda5b3bf5e10c72318deb37c7fd68bde47b8f52.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="ccee08da9acd08bacffdb5b4b07a28449eb5d1db914bd9ca83f249e875404ca6.png" title=" Tester enters 'luisalberto.mendoza@gmail.com' into Input Correo Electronico" width="1920"/>
+                <img src="29f9e00155276823334183a78aefbd45c15c628b961a24a2d1aa78c8bc5929e7.png" title=" Tester enters 'luisalberto.mendoza@gmail.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="29f9e00155276823334183a78aefbd45c15c628b961a24a2d1aa78c8bc5929e7.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="e819cf52ee7e966e8f90f1ecbf05d7ef3ce30b59b9cca871e72c48aac5a5ff75.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="e819cf52ee7e966e8f90f1ecbf05d7ef3ce30b59b9cca871e72c48aac5a5ff75.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="298dbc6f37e3d3e970678da95b7dd8ae26083db84ad2d247acde1860c99f3c24.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="298dbc6f37e3d3e970678da95b7dd8ae26083db84ad2d247acde1860c99f3c24.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="298dbc6f37e3d3e970678da95b7dd8ae26083db84ad2d247acde1860c99f3c24.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="298dbc6f37e3d3e970678da95b7dd8ae26083db84ad2d247acde1860c99f3c24.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="9d9fe149fa0b8913544fdbc4031d7e2b46e133e91543708fe8d7279b0d802f32.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="6c005e1986ca7781d44a3235c79b11fed1229819741019d39f0c607e1421d307.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="6c005e1986ca7781d44a3235c79b11fed1229819741019d39f0c607e1421d307.png" title=" Y el usuario valida el inicio de sesion exitoso (completed)" width="1920"/>
+                <img src="6c005e1986ca7781d44a3235c79b11fed1229819741019d39f0c607e1421d307.png" title=" Entonces el usuario cierra sesion" width="1920"/>
+                <img src="a5490560f621f4dc2e3b9f53f160bba4524931158a6ac2bafe1adafabda35b32.png" title=" Tester cerrar sesion task" width="1920"/>
+                <img src="91b347d7f5b695470cd290c65fd0be80bdf046a329e5a39ddc3dbf8b0e8a7421.png" title=" Tester clicks on Button Usuario" width="1920"/>
+                <img src="90dfd675475c8c5ced6c8af2116ae6cb1fa8602af223fd07dc7bcb3a8af582b6.png" title=" Tester clicks on Button Usuario (completed)" width="1920"/>
+                <img src="0a156dcfefbed8502059ebe04c63905dd87a1c227c7cf0992670e7ad3fb2d165.png" title=" Tester clicks on Button Cerrar Sesion" width="1920"/>
+                <img src="093153413fa8a4d7ca2b3d8e9e0b768d19b9ec9856fc3fb48c203bf52b92e8f2.png" title=" Tester clicks on Button Cerrar Sesion (completed)" width="1920"/>
+                <img src="093153413fa8a4d7ca2b3d8e9e0b768d19b9ec9856fc3fb48c203bf52b92e8f2.png" title=" Tester cerrar sesion task (completed)" width="1920"/>
+                <img src="093153413fa8a4d7ca2b3d8e9e0b768d19b9ec9856fc3fb48c203bf52b92e8f2.png" title=" Entonces el usuario cierra sesion (completed)" width="1920"/>
+                <img src="093153413fa8a4d7ca2b3d8e9e0b768d19b9ec9856fc3fb48c203bf52b92e8f2.png" title=" 9: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/}) (completed)" width="1920"/>
+                <img src="7b4b6ae2c8d36d448370128228b68cb9e12d6b14dd1bb3b4b179e98f1f822445.png" title=" 10: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="7b4b6ae2c8d36d448370128228b68cb9e12d6b14dd1bb3b4b179e98f1f822445.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="7b4b6ae2c8d36d448370128228b68cb9e12d6b14dd1bb3b4b179e98f1f822445.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="7b4b6ae2c8d36d448370128228b68cb9e12d6b14dd1bb3b4b179e98f1f822445.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="7b4b6ae2c8d36d448370128228b68cb9e12d6b14dd1bb3b4b179e98f1f822445.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="de76d605a5ada280c1c34d9d10ec352e4cd050f696fcc3366e365387b00411b3.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="77187356f543a7eec892130a644d50643194d59a99d3fd5d68543454229d4965.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="77187356f543a7eec892130a644d50643194d59a99d3fd5d68543454229d4965.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="77187356f543a7eec892130a644d50643194d59a99d3fd5d68543454229d4965.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="d5e94133be99506dd36b174ca2441328b4e8a174fd7faeb67f1526f36bb456fd.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="813f214825222abedb75396d7f3c97224d171c4e05c0d5ea05dc87c9af8ef30f.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="de99cb3c59a9789d80c8120dfdd45ffaccfda91f45c0f8c736c3ba1b33fd705c.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="7df8b30abc5631a6114dfc7adb90ac6a834e56820a74e7b9719840c48be60980.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="1fddf47f4db4971a33162fefd38cd5e46a86fc3b730b58f8269928c91802f035.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Jos&eacute; Angel Gardu&ntilde;o' into Input Nombre" width="1920"/>
+                <img src="aaac7c31ac44e083be1cd5c12344a0f12df9e4ac1d5a13640b1828604fe2887c.png" title=" Tester enters 'Jos&eacute; Angel Gardu&ntilde;o' into Input Nombre (completed)" width="1920"/>
+                <img src="aaac7c31ac44e083be1cd5c12344a0f12df9e4ac1d5a13640b1828604fe2887c.png" title=" Tester enters 'elvira.sandoval@hotmail.com' into Input Correo Electronico" width="1920"/>
+                <img src="1313c8a15a5a843d0d56021e56646dda26b0a4d0036760bc85f4c3aa3ffc0a1b.png" title=" Tester enters 'elvira.sandoval@hotmail.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="1313c8a15a5a843d0d56021e56646dda26b0a4d0036760bc85f4c3aa3ffc0a1b.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="2a17f8beff2c8356aec0d1ad812763509c3981a0bfffb067364c4ecc386df22a.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="2a17f8beff2c8356aec0d1ad812763509c3981a0bfffb067364c4ecc386df22a.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="e4dc41889107e7e6856a6b13e7fbedc871e4ffc99f35b72dd32b93671a0e2dcf.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="25b0d340b8899056c5dde9420790c7fb9b2b9de05f7247ccafcc9f67e5c4b18a.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="25b0d340b8899056c5dde9420790c7fb9b2b9de05f7247ccafcc9f67e5c4b18a.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="25b0d340b8899056c5dde9420790c7fb9b2b9de05f7247ccafcc9f67e5c4b18a.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="25b0d340b8899056c5dde9420790c7fb9b2b9de05f7247ccafcc9f67e5c4b18a.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="35a413b062352577435a9e19f824f0785e606805f48a96b21ca94fdfad1d24d4.png" title=" Tester enters 'elvira.sandoval@hotmail.com' into Input Correo Electronico" width="1920"/>
+                <img src="2c8cbf4f0b085ec3c6220b59db2b2f4ead3217435cdb8c3a25b9d45187eab23d.png" title=" Tester enters 'elvira.sandoval@hotmail.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="2c8cbf4f0b085ec3c6220b59db2b2f4ead3217435cdb8c3a25b9d45187eab23d.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="1232a9c612b701841282123e205d45e6f20601b4b634acff0ed6016839b14cf6.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="1232a9c612b701841282123e205d45e6f20601b4b634acff0ed6016839b14cf6.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="cdec172d1d7dad080025839c8fd15148def50e73e00c078e3b7ab56cc472b9c1.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="cdec172d1d7dad080025839c8fd15148def50e73e00c078e3b7ab56cc472b9c1.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="cdec172d1d7dad080025839c8fd15148def50e73e00c078e3b7ab56cc472b9c1.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="cdec172d1d7dad080025839c8fd15148def50e73e00c078e3b7ab56cc472b9c1.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="663211c14ca8dffd990cda9db920e2631df6540962ea45dcb2000bc1947f1f99.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="c0df9346599bb32d58b919bc6812b4b80e9612b404474e0e9d9e5b4154c86379.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="4209a7e0c5af377e0229200ab03450c899dc7571b2a1f790e21408dcdf53ae19.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="cf77b6252aacba77bb94dc229418ac9ca2eee2065176daece6759260811f7e0e.png" title=" 11: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/})" width="1920"/>
+                <img src="cf77b6252aacba77bb94dc229418ac9ca2eee2065176daece6759260811f7e0e.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/" width="1920"/>
+                <img src="cf77b6252aacba77bb94dc229418ac9ca2eee2065176daece6759260811f7e0e.png" title=" Tester opens the browser at https://code-buster.vercel.app/" width="1920"/>
+                <img src="cf77b6252aacba77bb94dc229418ac9ca2eee2065176daece6759260811f7e0e.png" title=" Dado que el usuario ingresa a la pagina de CodeBuster https://code-buster.vercel.app/ (completed)" width="1920"/>
+                <img src="cf77b6252aacba77bb94dc229418ac9ca2eee2065176daece6759260811f7e0e.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente" width="1920"/>
+                <img src="57bb760445a2e49e85fdef7c07fafb1ae6c146bc2b4f06f83624c028b0b120c2.png" title=" Tester carga pagina inicial task" width="1920"/>
+                <img src="23307a3ddab44919a8d84e4f946962613f7c40fb714c7d40a931f99270828df2.png" title=" Tester carga pagina inicial task (completed)" width="1920"/>
+                <img src="23307a3ddab44919a8d84e4f946962613f7c40fb714c7d40a931f99270828df2.png" title=" Y el usuario verifica que la p&aacute;gina carga correctamente (completed)" width="1920"/>
+                <img src="23307a3ddab44919a8d84e4f946962613f7c40fb714c7d40a931f99270828df2.png" title=" Y el usuario se registra de manera exitosa" width="1920"/>
+                <img src="bfc561b6681b72acbe3a9e971336be3391d8b6d3170a0d8407414571b086d01c.png" title=" Tester registro usuario task" width="1920"/>
+                <img src="6deb2383024d23abceec922721f233dcc26b63580a1a1158d76e9c7dce3ab114.png" title=" Tester clicks on Boton Ingresar" width="1920"/>
+                <img src="00aa76dff006b147603184f01ee33426699c361d65a139118592af8fabc8a2a4.png" title=" Tester clicks on Boton Ingresar (completed)" width="1920"/>
+                <img src="7df8b30abc5631a6114dfc7adb90ac6a834e56820a74e7b9719840c48be60980.png" title=" Tester clicks on Link Registrarse" width="1920"/>
+                <img src="1fddf47f4db4971a33162fefd38cd5e46a86fc3b730b58f8269928c91802f035.png" title=" Tester clicks on Link Registrarse (completed)" width="1920"/>
+                <img src="8890e58a1d8d6bac4b3f18f71f4d42e4c3aa030ebad0d6ecc3191607c81dac69.png" title=" Tester enters 'Julia Carrera' into Input Nombre" width="1920"/>
+                <img src="fcc9f94500b3201bd7b479c13a1778d1b56e39fae9899cf2082e40983f98b1bc.png" title=" Tester enters 'Julia Carrera' into Input Nombre (completed)" width="1920"/>
+                <img src="fcc9f94500b3201bd7b479c13a1778d1b56e39fae9899cf2082e40983f98b1bc.png" title=" Tester enters 'marisol.pena@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="9e7ad5668efb45760974a83ebfe9d9ec268ed51d7fcfa83ea58c6d7a99129794.png" title=" Tester enters 'marisol.pena@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="9e7ad5668efb45760974a83ebfe9d9ec268ed51d7fcfa83ea58c6d7a99129794.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="beb59dd455c93d825f27b13eb17852e12b409efbd48d0d21058beef6eb541552.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="beb59dd455c93d825f27b13eb17852e12b409efbd48d0d21058beef6eb541552.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="f9133b7c9bdd96ec154c1e4f72ea98019928690d6bb6a454879e1b73da78a7c7.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="b041cc118fd75730e1ba3aa92467559a1c51e62f8a4c21379c23708e345445e6.png" title=" Tester registro usuario task (completed)" width="1920"/>
+                <img src="b041cc118fd75730e1ba3aa92467559a1c51e62f8a4c21379c23708e345445e6.png" title=" Y el usuario se registra de manera exitosa (completed)" width="1920"/>
+                <img src="b041cc118fd75730e1ba3aa92467559a1c51e62f8a4c21379c23708e345445e6.png" title=" Y el usuario inicia sesion" width="1920"/>
+                <img src="544d4e8a8edbae0943254c3eed7a1b7ba5ea142e7fc915a3c34a0986d62b3d5e.png" title=" Tester inicio sesion task" width="1920"/>
+                <img src="31e22f70dcf68deba6159f2098059234fef3161cf3cc2a9b4cf43733fcc0d942.png" title=" Tester enters 'marisol.pena@yahoo.com' into Input Correo Electronico" width="1920"/>
+                <img src="c32a59b530452f2b84a3b37e308edc23e478ba3d6806155d24290e9811f9f491.png" title=" Tester enters 'marisol.pena@yahoo.com' into Input Correo Electronico (completed)" width="1920"/>
+                <img src="c32a59b530452f2b84a3b37e308edc23e478ba3d6806155d24290e9811f9f491.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a" width="1920"/>
+                <img src="1391614fcb7ed9ad7a92f63b2cee03f1c588d7221d42dc6f3482a277ebfcbb83.png" title=" Tester enters 'Codebuster123#' into Input Contrase&ntilde;a (completed)" width="1920"/>
+                <img src="1391614fcb7ed9ad7a92f63b2cee03f1c588d7221d42dc6f3482a277ebfcbb83.png" title=" Tester clicks on Button Iniciar Sesion" width="1920"/>
+                <img src="2578d1113a3cb4e1910bd74ff1c330babb9d739f42aec3c2efeeec8a1c3a9cec.png" title=" Tester clicks on Button Iniciar Sesion (completed)" width="1920"/>
+                <img src="2578d1113a3cb4e1910bd74ff1c330babb9d739f42aec3c2efeeec8a1c3a9cec.png" title=" Tester inicio sesion task (completed)" width="1920"/>
+                <img src="2578d1113a3cb4e1910bd74ff1c330babb9d739f42aec3c2efeeec8a1c3a9cec.png" title=" Y el usuario inicia sesion (completed)" width="1920"/>
+                <img src="2578d1113a3cb4e1910bd74ff1c330babb9d739f42aec3c2efeeec8a1c3a9cec.png" title=" Y el usuario valida el inicio de sesion exitoso" width="1920"/>
+                <img src="cdb2b0e0e0871aca929203362b64ee823229b15e89399dde23d0fcc8fb09e744.png" title=" Tester should see Button Usuario that is displayed" width="1920"/>
+                <img src="96b35ffe48398c6f1963a2fee1433462555ab1b9c2bb69e5c85708b754a6c330.png" title=" Tester should see Button Usuario that is displayed (completed)" width="1920"/>
+                <img src="96b35ffe48398c6f1963a2fee1433462555ab1b9c2bb69e5c85708b754a6c330.png" title=" Y el usuario valida el inicio de sesion exitoso (completed)" width="1920"/>
+                <img src="96b35ffe48398c6f1963a2fee1433462555ab1b9c2bb69e5c85708b754a6c330.png" title=" Entonces el usuario cierra sesion" width="1920"/>
+                <img src="a73d6e3d32d0daebfe32267c1ec24a2c35a9693a9f72f0e977a4f07cfec4582b.png" title=" Tester cerrar sesion task" width="1920"/>
+                <img src="3b732ba5420b8a2f6213d632c5982542b731624de413b878670381db4c619fb1.png" title=" Tester clicks on Button Usuario" width="1920"/>
+                <img src="639e01bdedaee8475590c8a75e9c1fde18bbfa2cc02dcdfe91959c8896145967.png" title=" Tester clicks on Button Usuario (completed)" width="1920"/>
+                <img src="7e52c411315e5c80d5d4a81f5c8016698762201b993a1643155869aa907a2ab3.png" title=" Tester clicks on Button Cerrar Sesion" width="1920"/>
+                <img src="2047fc176c3030f5f0e9fbeb2b3633f3818f876c1f36b1dfdf71c3fee1e6c8fc.png" title=" Tester clicks on Button Cerrar Sesion (completed)" width="1920"/>
+                <img src="2047fc176c3030f5f0e9fbeb2b3633f3818f876c1f36b1dfdf71c3fee1e6c8fc.png" title=" Tester cerrar sesion task (completed)" width="1920"/>
+                <img src="2047fc176c3030f5f0e9fbeb2b3633f3818f876c1f36b1dfdf71c3fee1e6c8fc.png" title=" Entonces el usuario cierra sesion (completed)" width="1920"/>
+                <img src="2047fc176c3030f5f0e9fbeb2b3633f3818f876c1f36b1dfdf71c3fee1e6c8fc.png" title=" 11: El usuario se registra exitosamente en la Pagina de CODEBUSTER ({url=https://code-buster.vercel.app/}) (completed): <span class='failing-color'>FAILURE</span>" width="1920"/>
             </div>
         </div>
 

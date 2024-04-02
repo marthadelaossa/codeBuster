@@ -11,3 +11,13 @@ Característica: Registro en la Pagina de CODEBUSTER
     Ejemplos:
       | url |
       | https://code-buster.vercel.app/|
+      | https://code-buster.vercel.app/|
+      | https://code-buster.vercel.app/|
+      | https://code-buster.vercel.app/|
+      | https://code-buster.vercel.app/|
+      | https://code-buster.vercel.app/|
+      | https://code-buster.vercel.app/|
+      | https://code-buster.vercel.app/|
+      | https://code-buster.vercel.app/|
+      | https://code-buster.vercel.app/|
+      | https://code-buster.vercel.app/|

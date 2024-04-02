@@ -28,7 +28,7 @@ public class RegistroUsuarioTask implements Task {
         );
         String nombre=(datos.getNombre()+" "+datos.getApellido());
         String email=datos.getCorreo();
-        String contrasenha=datos.getNombre()+"#"+datos.getContrasenha();
+        String contrasenha="Codebuster123#";
         actor.remember("email",email);
         actor.remember("contrasenha",contrasenha);
         actor.attemptsTo(
